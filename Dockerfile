@@ -1,8 +1,8 @@
 FROM node:8-alpine
-LABEL version "2.2.2"
+LABEL version "2.4.0"
 LABEL description "Arena web GUI in an alpine based docker image."
 
-ENV VERSION 2.2.2
+ENV VERSION 2.4.0
 
 RUN mkdir -p /home/arena && \
     addgroup -S arena && \
