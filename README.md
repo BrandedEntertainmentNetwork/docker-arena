@@ -24,5 +24,5 @@ docker run -d \
 --name arena \
 -p 4567:4567 \
 -v /tmp/index.json:/opt/arena/src/server/config/index.json \
-odlevakp/arena:latest
+bengroup/arena:latest
 ```
